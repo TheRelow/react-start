@@ -1,0 +1,22 @@
+.Sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - var(--navbar-height));
+  width: var(--sidebar-width);
+  background-color: var(--bg-color-2);
+  transition: width 0.2s;
+}
+
+.Sidebar__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 0.75rem;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+}

@@ -1,0 +1,25 @@
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+
+.app {
+  min-height: 100vh;
+  background: var(--bg-color);
+  color: var(--primary-color);
+  font: var(--font-m)
+}
+
+.content {
+  display: flex;
+}
+
+.main {
+  flex-grow: 1;
+  min-height: calc(100vh - 6rem);
+  width: calc(100vw - 2rem);
+  margin: 1.25rem auto;
+  padding: 0.75rem;
+  //background-color: #fff;
+  border-radius: 0.5rem;
+}

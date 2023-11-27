@@ -1,0 +1,7 @@
+.SidebarCollapsedSwitcher {
+  transition: transform 0.2s;
+}
+
+.collapsed {
+  transform: scale(-1, 1);
+}

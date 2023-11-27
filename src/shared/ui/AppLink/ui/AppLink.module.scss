@@ -1,0 +1,15 @@
+.AppLink {
+  color: var(--primary-color);
+}
+
+.theme_ {
+  &primary {
+    color: var(--primary-color);
+  }
+
+  &secondary {
+    color: var(--primary-color-2);
+  }
+}
+
+

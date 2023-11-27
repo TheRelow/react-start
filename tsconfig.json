@@ -6,8 +6,14 @@
     "target": "es5",
     "jsx": "react-jsx",
     "allowJs": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
-//    "baseUrl": ".",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"],
+      // TODO: сделать алиас на корень
+      "~/": ["./"]
+    },
     // https://webpack.js.org/configuration/configuration-languages/
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
